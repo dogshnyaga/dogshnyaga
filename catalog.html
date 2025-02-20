@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотомаг | Купить фототехнику в Казани</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+</head>
+
+<body class="bgaccent">
+    <section>
+        <header class="container">
+
+            <div class="logo">
+                <img src="assets/img/logo.svg" alt="">
+            </div>
+            <div class="nav">
+                <a href="index.html" class="nav-option">Главная</a>
+                <a href="catalog.html" class="nav-option">Каталог</a>
+                <a href="" class="nav-option">Связь</a>
+            </div>
+            <div class="nav-btns">
+                <button type="button" class="nav-btn-icon"><img src="assets/img/icons/facebook.svg" alt=""></button>
+                <button type="button" class="nav-btn-icon"><img src="assets/img/icons/tg.svg" alt=""></button>
+                <a href="login.html" class="nav-option"><button type="button" class="nav-btn">Войти</button></a>
+                <a href="reg.html" class="nav-option"><button type="button" class="nav-btn">Регистрация</button></a>
+            </div>
+
+        </header>
+        <div class="catalog-page container">
+            <a href="index.html" class="nav-option">Главная страница</a>→ <a href="" class="nav-option">Каталог
+                товаров</a>
+            →  <a href="" class="nav-option">Фотоаппараты </a> → <a href="" class="nav-option">Беззеркальные
+                фотоаппараты</a>
+            <div class="catalog-page-content">
+                <div class="filters">
+                    <div class="filter price-filter">
+                        <legend>Цена</legend>
+                        <div class="range-wrapper">
+                            <input type="range">
+                        </div>
+                        <div class="row">
+                            <input type="number" placeholder="От">
+                            <input type="number" name="my-input" id="max" placeholder="До">
+                        </div>
+                    </div>
+                    <div class="filter">
+                        <legend>Назначение</legend>
+                        <div><input type="radio" id="huey" name="drone" value="huey" checked />
+                            <label for="huey">для любителей</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="dewey" name="drone" value="dewey" />
+                            <label for="dewey">для начинающих</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="louie" name="drone" value="louie" />
+                            <label for="louie">полупрофессиональные</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="louie1" name="drone" value="louie" />
+                            <label for="loui1e">профессиональные</label>
+                        </div>
+                    </div>
+                    <div class="filter">
+
+
+                        <legend>Интерфейсы</legend>
+                        <div>
+                            <input type="radio" id="huey1" name="drone" value="huey1" checked />
+                            <label for="huey1">Bluetooth</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="dewey1" name="drone" value="dewey1" />
+                            <label for="dewey1">HDMI</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="louie2" name="drone" value="louie2" />
+                            <label for="louie2">USB</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="louie3" name="drone" value="louie3" />
+                            <label for="louie">Mini-Displayport</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="catalog-products">
+                    <select name="" id="">
+                        <option value="">▼ Сначала популярные</option>
+                        <option value="">Сначала дешевые</option>
+                        <option value="">Сначала дорогие</option>
+                        <option value="">Сначала с высоким рейтингом</option>
+                    </select>
+                    <hr>
+                    <div class="cards">
+                        <!-- card1 -->
+                        <div class="card">
+                            <img src="assets/img/products/canon.png" alt="" class="cover">
+                            <div class="card-content">
+                                <div class="product-text">
+                                    <h2 class="product-title">
+                                        Canon EOS 6D Mark II
+                                    </h2>
+                                    <p class="product-desc">
+                                        Полнокадровый, 26.2 Мп, 6.5 кадр./сек, 100-40000 ISO, видео Full HD, дисплей
+                                        поворотный, без объектива. 
+                                    </p>
+                                </div>
+                                <div class="product-cart-price">
+                                    <p class="price">130 000₽</p>
+                                    <button type="button" class="cart-btn" onclick="location.href='card.html'">
+                                        <p class="in-cart">В корзину</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card2 -->
+                        <div class="card">
+                            <img src="assets/img/products/lens.png" alt="" class="cover">
+                            <div class="card-content">
+                                <div class="product-text">
+                                    <h2 class="product-title">
+                                        Sony FE 24mm
+                                    </h2>
+                                    <p class="product-desc">
+                                        Компактность, легкость, портативность, а также быстрая и точная АФ,
+                                        профессиональное
+                                        управление и надежность. 
+                                    </p>
+                                </div>
+                                <div class="product-cart-price">
+                                    <p class="price">90 000₽</p>
+                                    <button type="button" class="cart-btn">
+                                        <p class="in-cart">В корзину</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card3 -->
+                        <div class="card">
+                            <img src="assets/img/products/manfrotto.png" alt="" class="cover">
+                            <div class="card-content">
+                                <div class="product-text">
+                                    <h2 class="product-title">
+                                        Штатив Manfrotto
+                                    </h2>
+                                    <p class="product-desc">
+                                        Оптимальное сочетание портативности, надежности, легкой установки и комфортной
+                                        эксплуатации. 
+                                    </p>
+                                </div>
+                                <div class="product-cart-price">
+                                    <p class="price">12 000₽</p>
+                                    <button type="button" class="cart-btn">
+                                        <p class="in-cart">В корзину</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card6 -->
+                        <div class="card">
+                            <img src="assets/img/products/filter.png" alt="" class="cover">
+                            <div class="card-content">
+                                <div class="product-text">
+                                    <h2 class="product-title">
+                                        Hoya STARSCAPE
+                                    </h2>
+                                    <p class="product-desc">
+                                        Разработан специально для астрофотографии, существенно снижая световое
+                                        загрязнение
+                                        от
+                                        городского освещения.
+                                    </p>
+                                </div>
+                                <div class="product-cart-price">
+                                    <p class="price">11 000₽</p>
+                                    <button type="button" class="cart-btn">
+                                        <p class="in-cart">В корзину</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+    <footer>
+        <div class="footer-block container">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <img src="assets/img/dark-logo.png" alt="" class="footer-logo">
+                </div>
+                <div class="copyright">
+                    <p class="author"><span class="developer">Разработчик:</span> Ярмухамедов Амир Рашидович</p>
+                    <p class="company-name">2025 ОАО «Фотомаг»</p>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h2 class="footer-column-title">
+                    Контакты
+                </h2>
+                <div class="footer-contacts">
+                    <div class="footer-column-contact">
+                        <h2 class="contact-heading">Остались вопросы? Напишите нам</h2>
+                        <a href="mailto:help@photomag.com>">help@photomag.com</a>
+                    </div>
+                    <div class="footer-column-contact">
+                        <h2 class="contact-heading">Нужна консультация? Позвоните нам</h2>
+                        <a href="mailto:altair-astroshop@gmail.com">+7 987 365 45 90</a>
+                    </div>
+                </div>
+            </div>
+    </footer>
+</body>
